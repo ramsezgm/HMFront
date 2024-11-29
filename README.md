@@ -48,12 +48,12 @@ Este proyecto permite visualizar, agregar, editar y eliminar datos relacionados 
 
 1. Clona el repositorio a tu máquina local:
     ```bash
-    git clone https://github.com/tu-usuario/tu-repo.git
+    git clone https://github.com/ramsezgm/HMFront.git
     ```
 
 2. Navega al directorio del proyecto:
     ```bash
-    cd tu-repo
+    cd frontend
     ```
 
 3. Instala las dependencias:
