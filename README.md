@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HOLA MODA - Dashboard
 
-## Getting Started
+Este es un dashboard para gestionar información de clientes y compras, desarrollado con **Next.js**, **Material-UI** y **TypeScript**.
 
-First, run the development server:
+## Descripción
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este proyecto permite visualizar, agregar, editar y eliminar datos relacionados con **clientes** y **compras** a través de una interfaz limpia y moderna. Las funcionalidades incluyen:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Visualización de todos los clientes.
+- Visualización de todas las compras.
+- Detalles de clientes y compras mediante modales.
+- Eliminar clientes y compras.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tecnologías
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Frontend:** Next.js (App Router), TypeScript, Material-UI
+- **Backend:** API RESTful (consumo desde el frontend)
+- **Estado:** React (useState, useEffect)
+- **Estilos:** Material-UI, iconos de Material Design
 
-## Learn More
+## Funcionalidades
 
-To learn more about Next.js, take a look at the following resources:
+### 1. **Clientes**
+  - Mostrar listado de clientes con detalles como:
+    - ID
+    - Edad
+    - Género
+    - Estado de suscripción
+  - Modal para ver detalles del cliente.
+  - Modal para eliminar clientes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 2. **Compras**
+  - Mostrar listado de compras con detalles como:
+    - ID de compra
+    - Monto
+    - ID de cliente
+    - Nombre del artículo
+  - Modal para ver detalles de compra.
+  - Modal para eliminar compras.
+  - 
+### 3. *Dashboard**
+  - Muestreo de los items mas vendidos.
+  - Grafico de ventas por ubicacion.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Instalación
 
-## Deploy on Vercel
+### Clonar el repositorio
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clona el repositorio a tu máquina local:
+    ```bash
+    git clone https://github.com/tu-usuario/tu-repo.git
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Navega al directorio del proyecto:
+    ```bash
+    cd tu-repo
+    ```
+
+3. Instala las dependencias:
+    ```bash
+    npm install
+    ```
+
+4. Inicia el servidor de desarrollo:
+    ```bash
+    npm run dev
+    ```
+
+    El dashboard estará disponible en `http://localhost:3000`.
+
